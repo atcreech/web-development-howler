@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="css/homePage.css" rel="stylesheet">
+    <script src="js/home.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1 id="howler-title">Howler</h1>
+        <p id="student-name"></p>
+        <img id="current-avatar">
+        <button id="logout-button" class="btn btn-primary">Log Out</button>
+    </header>
+
+    <div class="card">
+        <div class="d-flex flex-column card-body align-items-end">
+            <textarea rows="6" cols="60" id="howl-text"></textarea>
+            <button id="howl-button">Howl</button>
+        </div>
+    </div>
+
+    <div id="howls"></div>
+</body>
+</html>

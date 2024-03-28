@@ -1,0 +1,12 @@
+.container {
+    height: 100vh;
+}
+
+.card {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#login-button {
+    margin-top: 1em;
+}

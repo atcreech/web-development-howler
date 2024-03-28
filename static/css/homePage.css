@@ -1,0 +1,82 @@
+.card {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.howlCard {
+    width: 45vw;
+}
+
+#logout-button {
+    margin-right: 0.5em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#howler-title {
+    margin-left: 45vw;
+    margin-right: auto;
+}
+
+#student-name {
+    margin-right: 1em;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+#current-avatar {
+    width: 2em;
+    margin-right: 0.5em;
+    border: 0.1em solid black;
+    border-radius: 5em;
+}
+
+#howl-button {
+    margin-top: 0.5em;
+    width: 25%;
+}
+
+.howl-header {
+    margin-bottom: 1em;
+}
+
+.user-avatar {
+    width: 1.8em;
+    margin-right: 0.5em;
+    border: 0.1em solid black;
+    border-radius: 5em;
+}
+
+.user-tag {
+    margin-right: auto;
+    margin-bottom: 0;
+    color: gray;
+    cursor: pointer;
+}
+
+.user-first-name {
+    margin-right: 0.2em;
+    margin-bottom: 0;
+}
+
+.user-last-name {
+    margin-right: 0.5em;
+    margin-bottom: 0;
+}
+
+.howl-date {
+    margin-bottom: 0;
+}
